@@ -1,1 +1,1 @@
-print("Hello AI Hub")
+print("AI Hub is running")
