@@ -6,9 +6,10 @@
   </head>
   <body>
     <h1>AI Hub</h1>
-    <form>
-      <input type="text" placeholder="اكتب رسالتك">
+    <form method="post">
+      <input name="message" placeholder="اكتب رسالتك">
       <button type="submit">إرسال</button>
     </form>
+    <p>{{ reply }}</p>
   </body>
 </html>
